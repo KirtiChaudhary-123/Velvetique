@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Montserrat', system-ui, -apple-system, sans-serif;
+    
+    /* Velvetique Brand Palette */
+    --color-mauve: #A95367;
+    --color-mauve-dark: #8F3F52;
+    --color-mauve-light: #B05A6F;
+    --color-maroon: #4A1E2B;
+    --color-maroon-dark: #37141E;
+    --color-blush: #FBF0EB;
+    --color-blush-soft: #F7E9E4;
+    --color-prefooter: #F9E4DE;
+    --color-hairline: #F6D8D4;
+    --color-charcoal: #201A18;
+    --color-warm-gray: #665C56;
+    --color-gold: #E3A62F;
+    --color-rose-gold: #C98A63;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #201A18;
+    background-color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif-brand {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom Scrollbar for drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FBF0EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8CCD0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A95367;
+}
+
+/* WordPress Customizer Additional CSS export helpers */
+.elementor-section-wrap {
+  position: relative;
+  width: 100%;
+}

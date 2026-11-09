@@ -1,0 +1,6 @@
+{
+  "name": "Velvetique Beauty",
+  "description": "Luxury clean skincare and botanical beauty rituals e-commerce experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
