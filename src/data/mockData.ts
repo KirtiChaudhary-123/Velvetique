@@ -1,10 +1,10 @@
 import { Product, Collection, BlogPost } from '../types';
 
-export const HERO_IMAGE = '/src/assets/images/hero_beauty_bottles_1794197018305.jpg';
-export const PROMO_IMAGE = '/src/assets/images/promo_flatlay_botanical_1794197018346.jpg';
-export const SERUM_IMAGE = '/src/assets/images/product_serum_amber_1794197019266.jpg';
-export const MOISTURIZER_IMAGE = '/src/assets/images/product_gel_moisturizer_1794197020647.jpg';
-export const ABOUT_ROSE_IMAGE = '/src/assets/images/about_damask_roses_1794197020827.jpg';
+import HERO_IMAGE from '../assets/images/hero_beauty_bottles_1794197018305.jpg';
+import PROMO_IMAGE from '../assets/images/promo_flatlay_botanical_1794197018346.jpg';
+import SERUM_IMAGE from '../assets/images/product_serum_amber_1794197019266.jpg';
+import MOISTURIZER_IMAGE from '../assets/images/product_gel_moisturizer_1794197020647.jpg';
+import ABOUT_ROSE_IMAGE from '../assets/images/about_damask_roses_1794197020827.jpg';
 
 export const CATEGORIES_DATA = [
   {
@@ -201,7 +201,7 @@ export const PRODUCTS_DATA: Product[] = [
     reviewsCount: 74,
     image: HERO_IMAGE,
     skinType: 'All',
-    benefits: ['Includes 4 full-sized botanical heroes', 'Luxury gift packaging with keepsake ribbon', 'Perfect self-care or holiday gift'],
+    benefits: ['Includes 4 full-sized botanical heroes', 'Luxury gift packaging with rose-gold foil box', 'Perfect self-care or holiday gift'],
     ingredients: 'Features Cleanser (150ml), Niacinamide Serum (30ml), Gel Moisturizer (50ml), and Velvet Matte Lipstick.',
     volume: 'Complete 4-Piece Set',
     ritual: 'Follow the 4-step Velvetique morning and evening ritual for radiant, deeply hydrated, petal-soft skin.',
