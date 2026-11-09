@@ -1,3 +1,4 @@
+
 import { Product, Collection, BlogPost } from '../types';
 
 import HERO_IMAGE from '../assets/images/hero_beauty_bottles_1794197018305.jpg';
@@ -57,10 +58,16 @@ export const PRODUCTS_DATA: Product[] = [
     reviewsCount: 125,
     image: HERO_IMAGE,
     skinType: 'Oily',
-    benefits: ['Clears congested pores', 'Controls excess sebum', 'Non-stripping amino acid base'],
-    ingredients: 'Botanical Green Tea Hydrosol, 2% Salicylic Acid, Tea Tree Extract, Gotu Kola, Gentle Coconut Glucoside.',
+    benefits: [
+      'Clears congested pores',
+      'Controls excess sebum',
+      'Non-stripping amino acid base',
+    ],
+    ingredients:
+      'Botanical Green Tea Hydrosol, 2% Salicylic Acid, Tea Tree Extract, Gotu Kola, Gentle Coconut Glucoside.',
     volume: '150 ml / 5.1 fl. oz.',
-    ritual: 'Lather a coin-sized amount with lukewarm water. Massage over face in circular motions for 60 seconds, then rinse clean.',
+    ritual:
+      'Lather a coin-sized amount with lukewarm water. Massage over face in circular motions for 60 seconds, then rinse clean.',
     isBestSeller: true,
     isNew: false,
   },
@@ -75,10 +82,16 @@ export const PRODUCTS_DATA: Product[] = [
     reviewsCount: 200,
     image: SERUM_IMAGE,
     skinType: 'All',
-    benefits: ['Visibly fades dark spots', 'Smooths uneven skin texture', 'Strengthens lipid barrier'],
-    ingredients: 'Pure Niacinamide (Vitamin B3) 10%, Zinc PCA 1%, Licorice Root Extract, Damask Rose Hydrosol, Hyaluronic Acid.',
+    benefits: [
+      'Visibly fades dark spots',
+      'Smooths uneven skin texture',
+      'Strengthens lipid barrier',
+    ],
+    ingredients:
+      'Pure Niacinamide (Vitamin B3) 10%, Zinc PCA 1%, Licorice Root Extract, Damask Rose Hydrosol, Hyaluronic Acid.',
     volume: '30 ml / 1.0 fl. oz.',
-    ritual: 'Apply 3-4 drops morning and evening to cleansed skin before moisturizers. Pat gently until fully absorbed.',
+    ritual:
+      'Apply 3-4 drops morning and evening to cleansed skin before moisturizers. Pat gently until fully absorbed.',
     isBestSeller: true,
     isNew: false,
   },
@@ -93,10 +106,16 @@ export const PRODUCTS_DATA: Product[] = [
     reviewsCount: 185,
     image: MOISTURIZER_IMAGE,
     skinType: 'Sensitive',
-    benefits: ['Weightless water-gel texture', 'Cools and calms irritation', 'No sticky residue'],
-    ingredients: 'Triple Molecular Hyaluronic Acid, Centella Asiatica, Aloe Vera Leaf Juice, Cucumber Ferment, Botanical Squalane.',
+    benefits: [
+      'Weightless water-gel texture',
+      'Cools and calms irritation',
+      'No sticky residue',
+    ],
+    ingredients:
+      'Triple Molecular Hyaluronic Acid, Centella Asiatica, Aloe Vera Leaf Juice, Cucumber Ferment, Botanical Squalane.',
     volume: '50 ml / 1.7 fl. oz.',
-    ritual: 'Smooth a generous nickel-sized dollop across face and neck. Can be layered generously overnight as a sleeping mask.',
+    ritual:
+      'Smooth a generous nickel-sized dollop across face and neck. Can be layered generously overnight as a sleeping mask.',
     isBestSeller: true,
     isNew: false,
   },
@@ -109,12 +128,19 @@ export const PRODUCTS_DATA: Product[] = [
     originalPrice: 450,
     rating: 5,
     reviewsCount: 98,
-    image: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80',
+    image:
+      'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80',
     skinType: 'All',
-    benefits: ['Non-drying plush matte finish', '8-hour transfer-resistant wear', 'Ayurvedic butter infusion'],
-    ingredients: 'Sweet Almond Butter, Candelilla Wax, Castor Seed Oil, Organic Rose Petal Extract, Mineral Pigments.',
+    benefits: [
+      'Non-drying plush matte finish',
+      '8-hour transfer-resistant wear',
+      'Ayurvedic butter infusion',
+    ],
+    ingredients:
+      'Sweet Almond Butter, Candelilla Wax, Castor Seed Oil, Organic Rose Petal Extract, Mineral Pigments.',
     volume: '3.8 g / 0.13 oz.',
-    ritual: 'Glide directly from the bullet starting at center of upper lip moving outward. Blot once with tissue for a blurred velvet stain.',
+    ritual:
+      'Glide directly from the bullet starting at center of upper lip moving outward. Blot once with tissue for a blurred velvet stain.',
     isBestSeller: true,
     isNew: true,
   },
@@ -127,12 +153,19 @@ export const PRODUCTS_DATA: Product[] = [
     originalPrice: 999,
     rating: 5,
     reviewsCount: 142,
-    image: 'https://images.unsplash.com/photo-1608248597359-7104b2b19e1f?auto=format&fit=crop&w=600&q=80',
+    image:
+      'https://images.unsplash.com/photo-1608248597359-7104b2b19e1f?auto=format&fit=crop&w=600&q=80',
     skinType: 'All',
-    benefits: ['Invigorates dormant hair follicles', 'Controls flaking & dryness', 'Imparts mirror-like shine'],
-    ingredients: 'Cold-Pressed Sesame Seed Oil, Bhringraj Leaf, Wild Amla Fruit, Rosemary Essential Oil, Fenugreek Seed Extract.',
+    benefits: [
+      'Invigorates dormant hair follicles',
+      'Controls flaking & dryness',
+      'Imparts mirror-like shine',
+    ],
+    ingredients:
+      'Cold-Pressed Sesame Seed Oil, Bhringraj Leaf, Wild Amla Fruit, Rosemary Essential Oil, Fenugreek Seed Extract.',
     volume: '100 ml / 3.4 fl. oz.',
-    ritual: 'Warm 1-2 pipettes between palms. Gently massage into scalp using circular finger pressure. Leave on for at least 1 hour or overnight.',
+    ritual:
+      'Warm 1-2 pipettes between palms. Gently massage into scalp using circular finger pressure. Leave on for at least 1 hour or overnight.',
     isBestSeller: false,
     isNew: true,
   },
@@ -147,10 +180,15 @@ export const PRODUCTS_DATA: Product[] = [
     reviewsCount: 110,
     image: ABOUT_ROSE_IMAGE,
     skinType: 'Sensitive',
-    benefits: ['Restores skin pH immediately', 'Tightens pore appearance', 'Soothes stressed skin'],
+    benefits: [
+      'Restores skin pH immediately',
+      'Tightens pore appearance',
+      'Soothes stressed skin',
+    ],
     ingredients: '100% Pure Steam Distilled Rosa Damascena Floral Water.',
     volume: '100 ml / 3.4 fl. oz.',
-    ritual: 'Spritz generously across face, neck, and décolletage after cleansing or throughout the day for an instant dewy pick-me-up.',
+    ritual:
+      'Spritz generously across face, neck, and décolletage after cleansing or throughout the day for an instant dewy pick-me-up.',
     isBestSeller: false,
     isNew: false,
   },
@@ -165,10 +203,16 @@ export const PRODUCTS_DATA: Product[] = [
     reviewsCount: 88,
     image: PROMO_IMAGE,
     skinType: 'Dry',
-    benefits: ['Melts into velvety finish', 'Restores dry elbows & knees', 'Delicate natural white floral scent'],
-    ingredients: 'Raw Kokum Butter, Shea Butter, Sweet Almond Oil, Jasmine Sambac Absolute, Vitamin E.',
+    benefits: [
+      'Melts into velvety finish',
+      'Restores dry elbows & knees',
+      'Delicate natural white floral scent',
+    ],
+    ingredients:
+      'Raw Kokum Butter, Shea Butter, Sweet Almond Oil, Jasmine Sambac Absolute, Vitamin E.',
     volume: '200 ml / 6.7 fl. oz.',
-    ritual: 'Massage into damp skin directly after showering to lock in moisture all day.',
+    ritual:
+      'Massage into damp skin directly after showering to lock in moisture all day.',
     isBestSeller: false,
     isNew: false,
   },
@@ -181,12 +225,19 @@ export const PRODUCTS_DATA: Product[] = [
     originalPrice: 750,
     rating: 5,
     reviewsCount: 165,
-    image: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80',
+    image:
+      'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80',
     skinType: 'Combination',
-    benefits: ['Broad spectrum UVA/UVB protection', 'Zero white cast or chalkiness', 'Blue light filter'],
-    ingredients: 'Non-Nano Micronized Zinc Oxide (18%), Pongamia Seed Oil, Green Tea Ferment, Niacinamide, Rice Bran Extract.',
+    benefits: [
+      'Broad spectrum UVA/UVB protection',
+      'Zero white cast or chalkiness',
+      'Blue light filter',
+    ],
+    ingredients:
+      'Non-Nano Micronized Zinc Oxide (18%), Pongamia Seed Oil, Green Tea Ferment, Niacinamide, Rice Bran Extract.',
     volume: '60 ml / 2.0 fl. oz.',
-    ritual: 'Apply two finger-lengths generously to face and neck as the final morning step. Reapply every 2-3 hours during outdoor exposure.',
+    ritual:
+      'Apply two finger-lengths generously to face and neck as the final morning step. Reapply every 2-3 hours during outdoor exposure.',
     isBestSeller: false,
     isNew: true,
   },
@@ -201,10 +252,16 @@ export const PRODUCTS_DATA: Product[] = [
     reviewsCount: 74,
     image: HERO_IMAGE,
     skinType: 'All',
-    benefits: ['Includes 4 full-sized botanical heroes', 'Luxury gift packaging with rose-gold foil box', 'Perfect self-care or holiday gift'],
-    ingredients: 'Features Cleanser (150ml), Niacinamide Serum (30ml), Gel Moisturizer (50ml), and Velvet Matte Lipstick.',
+    benefits: [
+      'Includes 4 full-sized botanical heroes',
+      'Luxury gift packaging with rose-gold foil box',
+      'Perfect self-care or holiday gift',
+    ],
+    ingredients:
+      'Features Cleanser (150ml), Niacinamide Serum (30ml), Gel Moisturizer (50ml), and Velvet Matte Lipstick.',
     volume: 'Complete 4-Piece Set',
-    ritual: 'Follow the 4-step Velvetique morning and evening ritual for radiant, deeply hydrated, petal-soft skin.',
+    ritual:
+      'Follow the 4-step Velvetique morning and evening ritual for radiant, deeply hydrated, petal-soft skin.',
     isBestSeller: true,
     isNew: false,
   },
@@ -218,7 +275,8 @@ export const COLLECTIONS_DATA: Collection[] = [
     tagline: 'Daily skin barrier harmony',
     image: HERO_IMAGE,
     categorySlug: 'Skincare',
-    description: 'A curated daily routine formulated with cold-pressed botanical oils, niacinamide, and multi-depth hyaluronic acid to fortify and illuminate.',
+    description:
+      'A curated daily routine formulated with cold-pressed botanical oils, niacinamide, and multi-depth hyaluronic acid to fortify and illuminate.',
     productCount: 8,
   },
   {
@@ -226,9 +284,11 @@ export const COLLECTIONS_DATA: Collection[] = [
     title: 'Everyday Makeup',
     subtitle: 'Breathable mineral pigments & rose lipsticks',
     tagline: 'Effortless, skin-first radiance',
-    image: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=800&q=80',
+    image:
+      'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=800&q=80',
     categorySlug: 'Makeup',
-    description: 'Clean pigments derived from organic minerals and floral waxes that blend seamlessly while feeding skin nourishing antioxidants.',
+    description:
+      'Clean pigments derived from organic minerals and floral waxes that blend seamlessly while feeding skin nourishing antioxidants.',
     productCount: 6,
   },
   {
@@ -236,9 +296,11 @@ export const COLLECTIONS_DATA: Collection[] = [
     title: 'Clean Hair Rituals',
     subtitle: 'Ayurvedic restorative root oils & masks',
     tagline: 'Ancient scalp wellness',
-    image: 'https://images.unsplash.com/photo-1608248597359-7104b2b19e1f?auto=format&fit=crop&w=800&q=80',
+    image:
+      'https://images.unsplash.com/photo-1608248597359-7104b2b19e1f?auto=format&fit=crop&w=800&q=80',
     categorySlug: 'Haircare',
-    description: 'Potent time-tested botanicals including Bhringraj, Brahmi, and cold-pressed Amla that strengthen roots and restore mirror shine.',
+    description:
+      'Potent time-tested botanicals including Bhringraj, Brahmi, and cold-pressed Amla that strengthen roots and restore mirror shine.',
     productCount: 5,
   },
   {
@@ -248,7 +310,8 @@ export const COLLECTIONS_DATA: Collection[] = [
     tagline: 'The art of thoughtful gifting',
     image: PROMO_IMAGE,
     categorySlug: 'Gift Sets',
-    description: 'Luxurious gift presentations hand-tied with cotton ribbon, designed to bring the tranquil spa experience to daily home rituals.',
+    description:
+      'Luxurious gift presentations hand-tied with cotton ribbon, designed to bring the tranquil spa experience to daily home rituals.',
     productCount: 4,
   },
   {
@@ -256,9 +319,11 @@ export const COLLECTIONS_DATA: Collection[] = [
     title: 'Botanical Sun Defense',
     subtitle: 'Non-nano invisible mineral SPF formulas',
     tagline: 'Shield, hydrate & illuminate',
-    image: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80',
+    image:
+      'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80',
     categorySlug: 'Sun Care',
-    description: 'Sheer, weightless physical zinc formulas that block UVA, UVB, and digital blue light without chalky residue or pore clogging.',
+    description:
+      'Sheer, weightless physical zinc formulas that block UVA, UVB, and digital blue light without chalky residue or pore clogging.',
     productCount: 3,
   },
   {
@@ -268,7 +333,8 @@ export const COLLECTIONS_DATA: Collection[] = [
     tagline: '5,000 years of herbal wisdom',
     image: ABOUT_ROSE_IMAGE,
     categorySlug: 'Skincare',
-    description: 'Slow-infused herbal distillations honoring traditional copper kettle hydro-distillation and adaptogenic roots.',
+    description:
+      'Slow-infused herbal distillations honoring traditional copper kettle hydro-distillation and adaptogenic roots.',
     productCount: 7,
   },
 ];
@@ -276,21 +342,24 @@ export const COLLECTIONS_DATA: Collection[] = [
 export const BLOG_POSTS_DATA: BlogPost[] = [
   {
     id: 'double-cleanse-ritual',
-    title: 'The Double-Cleanse Ritual: Why Damask Rose and Plant Oils Transform Barrier Health',
+    title:
+      'The Double-Cleanse Ritual: Why Damask Rose and Plant Oils Transform Barrier Health',
     category: 'Skincare Rituals',
     date: 'March 14, 2026',
     readTime: '4 min read',
-    excerpt: 'Traditional foaming cleansers often disrupt your acid mantle. Here is how cold-pressed seed oils melt sunscreen while preserving skin lipid integrity.',
+    excerpt:
+      'Traditional foaming cleansers often disrupt your acid mantle. Here is how cold-pressed seed oils melt sunscreen while preserving skin lipid integrity.',
     image: ABOUT_ROSE_IMAGE,
     author: {
       name: 'Dr. Ananya Sen',
       role: 'Lead Cosmetic Chemist',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
+      avatar:
+        'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
     },
     content: [
       'The foundation of radiant skin is not aggressive exfoliation, but rather meticulous, respectful cleansing. When your skin barrier is intact, moisture remains sealed within and irritants are naturally repelled.',
       'Oil dissolves oil. Throughout the day, mineral sunscreen, sebum, and microscopic environmental pollutants bond with the skins lipid matrix. An oil-based cleanser bonds with these impurities, lifting them effortlessly without stripping away ceramides.',
-      'Following with a gentle botanical milk or amino-acid based cleanser removes water-soluble debris. The result is skin that feels supple, velvety, and receptive to active serums.'
+      'Following with a gentle botanical milk or amino-acid based cleanser removes water-soluble debris. The result is skin that feels supple, velvety, and receptive to active serums.',
     ],
   },
   {
@@ -299,36 +368,41 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     category: 'Ingredient Science',
     date: 'March 8, 2026',
     readTime: '5 min read',
-    excerpt: 'Can clinical actives pair peacefully with Ayurvedic herbs? We break down the exact molecular synergy behind our 10% Niacinamide & Licorice formula.',
+    excerpt:
+      'Can clinical actives pair peacefully with Ayurvedic herbs? We break down the exact molecular synergy behind our 10% Niacinamide & Licorice formula.',
     image: SERUM_IMAGE,
     author: {
       name: 'Priya Sharma',
       role: 'Botanical Formulator',
-      avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80',
+      avatar:
+        'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80',
     },
     content: [
       'Many skincare routines suffer from ingredient antagonism — where high concentrations of harsh acids neutralize delicate botanical polyphenols.',
       'Niacinamide (Vitamin B3) operates at a neutral pH (5.5 - 6.5), making it the perfect partner for botanical extracts such as Licorice Root (Glabridin) and Centella Asiatica.',
-      'Layering from thinnest watery consistency to richest emulsion ensures deep trans-epidermal penetration without pilling.'
+      'Layering from thinnest watery consistency to richest emulsion ensures deep trans-epidermal penetration without pilling.',
     ],
   },
   {
     id: 'clean-beauty-truth',
-    title: 'The Clean Beauty Truth: Demystifying Preservatives, Clean Actives & Safety',
+    title:
+      'The Clean Beauty Truth: Demystifying Preservatives, Clean Actives & Safety',
     category: 'Beauty Philosophy',
     date: 'February 26, 2026',
     readTime: '6 min read',
-    excerpt: 'Clean beauty does not mean preservative-free. Discover how food-grade bio-ferments keep formulas safe without endocrine-disrupting chemicals.',
+    excerpt:
+      'Clean beauty does not mean preservative-free. Discover how food-grade bio-ferments keep formulas safe without endocrine-disrupting chemicals.',
     image: HERO_IMAGE,
     author: {
       name: 'Vikram Mehta',
       role: 'Co-Founder & R&D Lead',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
+      avatar:
+        'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
     },
     content: [
       'Preservation in water-based cosmetics is a critical safety requirement, not an optional convenience. Bacteria and mold cultivate rapidly in unguarded botanicals.',
       'At Velvetique, we reject parabens, formaldehyde releasers, and harsh isothiazolinones in favor of Radish Root Ferment Filrate and nature-identical phenethyl alcohol extracted from roses.',
-      'Our commitment is 100% transparency. Every batch is dermatologically verified on sensitive human skin types.'
+      'Our commitment is 100% transparency. Every batch is dermatologically verified on sensitive human skin types.',
     ],
   },
   {
@@ -337,17 +411,20 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     category: 'Ingredient Science',
     date: 'February 15, 2026',
     readTime: '4 min read',
-    excerpt: 'Why non-nano mineral zinc is the gold standard for sensitive skin, coral reef preservation, and immediate broad-spectrum deflection.',
-    image: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80',
+    excerpt:
+      'Why non-nano mineral zinc is the gold standard for sensitive skin, coral reef preservation, and immediate broad-spectrum deflection.',
+    image:
+      'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80',
     author: {
       name: 'Dr. Ananya Sen',
       role: 'Lead Cosmetic Chemist',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
+      avatar:
+        'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
     },
     content: [
       'Chemical filters absorb UV photons and convert them to heat within the skin, which can trigger redness in melasma-prone or rosacea patients.',
       'Non-nano zinc sits gracefully atop the epidermis like millions of tiny microscopic mirrors, deflecting both UVA rays (which cause aging) and UVB rays (which cause burning) immediately upon application.',
-      'Our fluid formulation uses micronized zinc suspended in lightweight plant esters to guarantee zero chalky cast across all Fitzpatrick skin tones.'
+      'Our fluid formulation uses micronized zinc suspended in lightweight plant esters to guarantee zero chalky cast across all Fitzpatrick skin tones.',
     ],
   },
 ];
@@ -357,18 +434,21 @@ export const FOUNDERS_DATA = [
     name: 'Mira Kapoor',
     role: 'Co-Founder & Creative Director',
     bio: 'Former beauty editor and botanist dedicated to elevating Indian indigenous herbal wisdom into contemporary luxury rituals.',
-    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80',
+    avatar:
+      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80',
   },
   {
     name: 'Dr. Ananya Sen',
     role: 'Chief Formulator & Biochemist',
     bio: '15+ years formulating clean active dermatological skincare, PhD in Pharmaceutical Sciences from King’s College London.',
-    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80',
+    avatar:
+      'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80',
   },
   {
     name: 'Karan Varma',
     role: 'Co-Founder & Sustainability Head',
     bio: 'Pioneered Velvetique zero-plastic glass refilling program and direct-trade fair-wage farming partnerships in Kashmir and Kannauj.',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
+    avatar:
+      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
   },
 ];
