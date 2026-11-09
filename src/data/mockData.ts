@@ -1,4 +1,3 @@
-
 import { Product, Collection, BlogPost } from '../types';
 
 import HERO_IMAGE from '../assets/images/hero_beauty_bottles_1794197018305.jpg';
@@ -6,6 +5,14 @@ import PROMO_IMAGE from '../assets/images/promo_flatlay_botanical_1794197018346.
 import SERUM_IMAGE from '../assets/images/product_serum_amber_1794197019266.jpg';
 import MOISTURIZER_IMAGE from '../assets/images/product_gel_moisturizer_1794197020647.jpg';
 import ABOUT_ROSE_IMAGE from '../assets/images/about_damask_roses_1794197020827.jpg';
+
+export {
+  HERO_IMAGE,
+  PROMO_IMAGE,
+  SERUM_IMAGE,
+  MOISTURIZER_IMAGE,
+  ABOUT_ROSE_IMAGE,
+};
 
 export const CATEGORIES_DATA = [
   {
@@ -128,8 +135,7 @@ export const PRODUCTS_DATA: Product[] = [
     originalPrice: 450,
     rating: 5,
     reviewsCount: 98,
-    image:
-      'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80',
     skinType: 'All',
     benefits: [
       'Non-drying plush matte finish',
@@ -153,8 +159,7 @@ export const PRODUCTS_DATA: Product[] = [
     originalPrice: 999,
     rating: 5,
     reviewsCount: 142,
-    image:
-      'https://images.unsplash.com/photo-1608248597359-7104b2b19e1f?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1608248597359-7104b2b19e1f?auto=format&fit=crop&w=600&q=80',
     skinType: 'All',
     benefits: [
       'Invigorates dormant hair follicles',
@@ -225,8 +230,7 @@ export const PRODUCTS_DATA: Product[] = [
     originalPrice: 750,
     rating: 5,
     reviewsCount: 165,
-    image:
-      'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80',
     skinType: 'Combination',
     benefits: [
       'Broad spectrum UVA/UVB protection',
@@ -284,8 +288,7 @@ export const COLLECTIONS_DATA: Collection[] = [
     title: 'Everyday Makeup',
     subtitle: 'Breathable mineral pigments & rose lipsticks',
     tagline: 'Effortless, skin-first radiance',
-    image:
-      'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=800&q=80',
     categorySlug: 'Makeup',
     description:
       'Clean pigments derived from organic minerals and floral waxes that blend seamlessly while feeding skin nourishing antioxidants.',
@@ -296,8 +299,7 @@ export const COLLECTIONS_DATA: Collection[] = [
     title: 'Clean Hair Rituals',
     subtitle: 'Ayurvedic restorative root oils & masks',
     tagline: 'Ancient scalp wellness',
-    image:
-      'https://images.unsplash.com/photo-1608248597359-7104b2b19e1f?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1608248597359-7104b2b19e1f?auto=format&fit=crop&w=800&q=80',
     categorySlug: 'Haircare',
     description:
       'Potent time-tested botanicals including Bhringraj, Brahmi, and cold-pressed Amla that strengthen roots and restore mirror shine.',
@@ -319,8 +321,7 @@ export const COLLECTIONS_DATA: Collection[] = [
     title: 'Botanical Sun Defense',
     subtitle: 'Non-nano invisible mineral SPF formulas',
     tagline: 'Shield, hydrate & illuminate',
-    image:
-      'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80',
     categorySlug: 'Sun Care',
     description:
       'Sheer, weightless physical zinc formulas that block UVA, UVB, and digital blue light without chalky residue or pore clogging.',
@@ -353,8 +354,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     author: {
       name: 'Dr. Ananya Sen',
       role: 'Lead Cosmetic Chemist',
-      avatar:
-        'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
+      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
     },
     content: [
       'The foundation of radiant skin is not aggressive exfoliation, but rather meticulous, respectful cleansing. When your skin barrier is intact, moisture remains sealed within and irritants are naturally repelled.',
@@ -374,8 +374,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     author: {
       name: 'Priya Sharma',
       role: 'Botanical Formulator',
-      avatar:
-        'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80',
+      avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80',
     },
     content: [
       'Many skincare routines suffer from ingredient antagonism — where high concentrations of harsh acids neutralize delicate botanical polyphenols.',
@@ -396,8 +395,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     author: {
       name: 'Vikram Mehta',
       role: 'Co-Founder & R&D Lead',
-      avatar:
-        'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
+      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
     },
     content: [
       'Preservation in water-based cosmetics is a critical safety requirement, not an optional convenience. Bacteria and mold cultivate rapidly in unguarded botanicals.',
@@ -413,13 +411,11 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     readTime: '4 min read',
     excerpt:
       'Why non-nano mineral zinc is the gold standard for sensitive skin, coral reef preservation, and immediate broad-spectrum deflection.',
-    image:
-      'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80',
     author: {
       name: 'Dr. Ananya Sen',
       role: 'Lead Cosmetic Chemist',
-      avatar:
-        'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
+      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
     },
     content: [
       'Chemical filters absorb UV photons and convert them to heat within the skin, which can trigger redness in melasma-prone or rosacea patients.',
@@ -434,21 +430,18 @@ export const FOUNDERS_DATA = [
     name: 'Mira Kapoor',
     role: 'Co-Founder & Creative Director',
     bio: 'Former beauty editor and botanist dedicated to elevating Indian indigenous herbal wisdom into contemporary luxury rituals.',
-    avatar:
-      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80',
+    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80',
   },
   {
     name: 'Dr. Ananya Sen',
     role: 'Chief Formulator & Biochemist',
     bio: '15+ years formulating clean active dermatological skincare, PhD in Pharmaceutical Sciences from King’s College London.',
-    avatar:
-      'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80',
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80',
   },
   {
     name: 'Karan Varma',
     role: 'Co-Founder & Sustainability Head',
     bio: 'Pioneered Velvetique zero-plastic glass refilling program and direct-trade fair-wage farming partnerships in Kashmir and Kannauj.',
-    avatar:
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
   },
 ];
